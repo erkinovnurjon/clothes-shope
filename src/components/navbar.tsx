@@ -15,8 +15,8 @@ const Navbar = () => {
 
       <div className=' flex items-center space-x-3'>
               <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                  <Link href={'/'} className="mr-5 hover:text-gray-900">First Link</Link>
-                  <Link href={'/products'} className="mr-5 hover:text-gray-900">Second Link</Link>
+                  <Link href={'/'} className="mr-5 hover:text-gray-900">Home Page</Link>
+                  <Link href={'/products'} className="mr-5 hover:text-gray-900">All Products</Link>
      
               </nav>
             <button className='button bg-blue-600 text-white border-transparent
