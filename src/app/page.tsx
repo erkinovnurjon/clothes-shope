@@ -1,3 +1,4 @@
+import Cta from "@/components/Cta";
 import Hero from "@/components/hero";
 import Products from "@/components/products";
 import { ProductType } from "@/interfaces";
@@ -9,7 +10,7 @@ export default async function Home() {
   
   
   return (
-    <main className=" min-h-screen max-w-7xl  mx-auto  px-8 xl:px-0  mt-5">
+    <main className=" min-h-screen max-w-7xl  mx-auto  px-8 xl:px-0  mt-16">
       <Hero />
       <section className="flex flex-col  space-y-12">
         <h1 className=" text-5xl font-bold text-center">
@@ -22,6 +23,7 @@ export default async function Home() {
             ))
           }
         </div>
+        <Cta />
 
       </section>
     </main>

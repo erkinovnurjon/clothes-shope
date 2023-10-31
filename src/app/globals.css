@@ -15,3 +15,16 @@
 		margin: 0;
 	}
 }
+.blog-card:hover{
+	border: rgb(69, 69, 236) 2px solid;
+	transition: all ease .5s;
+	
+}
+.blog-card:hover .blog-button{
+	background-color: rgb(69, 69, 236);
+	transition: all ease .5s;
+}
+.blog-card:hover span{
+	background-color: rgb(69, 69, 236);
+	transition: all ease .5s;
+}

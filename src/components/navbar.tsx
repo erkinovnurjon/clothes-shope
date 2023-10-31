@@ -4,19 +4,21 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-   <header className='flex justify-between items-center px-4 md:px-12 bg-white fixed top-0 z-50 w-full shadow-md py-2'>
-      <Link href={'/'}>
+   <header className='flex justify-between items-center px-4 md:px-12 bg-white fixed top-0 z-50 w-full shadow-md '>
+      <Link href={'/'} className=' flex items-center'>
         <Image 
-        src={'/logo.svg'}
+        src={'/logotwo.jpg'}
         alt='logo'
-        width={150}
-        height={40}/>
+        width={120}
+        height={30}/>
+       
       </Link>
 
       <div className=' flex items-center space-x-3'>
               <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                   <Link href={'/'} className="mr-5 hover:text-gray-900">Home Page</Link>
                   <Link href={'/products'} className="mr-5 hover:text-gray-900">All Products</Link>
+                  <Link href={'/contacts'} className="mr-5 hover:text-gray-900">Contacts</Link>
      
               </nav>
            <Link href={'/shoppingcard'}>
