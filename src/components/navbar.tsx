@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
    <header className='flex justify-between items-center px-4 md:px-12 bg-white fixed top-0 z-50 w-full shadow-md '>
       <Link href={'/'} className=' flex items-center'>
-        <Image 
-        src={'/logotwo.jpg'}
+        <Image  className='border-full m-0 p-0'
+        src={'/techno.jpg'}
         alt='logo'
-        width={120}
-        height={30}/>
+        width={160}
+        height={20}/>
        
       </Link>
 

@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-      images:{
-            domains:['fakestoreapi.com'],
-      },
+  images: {
+    domains: ['fakestoreapi.com'],
+  },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
+

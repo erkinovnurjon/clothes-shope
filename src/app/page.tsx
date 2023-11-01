@@ -14,7 +14,7 @@ export default async function Home() {
       <Hero />
       <section className="flex flex-col  space-y-12">
         <h1 className=" text-5xl font-bold text-center">
-          SAMMI SHOP DETAILS
+          TECHNO SHOP DETAILS
         </h1>
         <div className="grid gap-y-10 gap-x-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 xl:gap-x-8 ">
           {

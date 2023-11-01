@@ -24,7 +24,19 @@
 	background-color: rgb(69, 69, 236);
 	transition: all ease .5s;
 }
-.blog-card:hover span{
+.blog-card .blog-button:active{
+	background-color: rgb(138, 138, 237);
+	
+}
+.blog-card span:hover{
+	background-color: rgb(69, 69, 236);
+	
+}
+.blog-card span:active{
+	background-color: rgb(60, 60, 199);
+	transition: all ease .5s;
+}
+.blog-card:hover .span{
 	background-color: rgb(69, 69, 236);
 	transition: all ease .5s;
 }
