@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Blog = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
