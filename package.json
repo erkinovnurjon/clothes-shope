@@ -16,6 +16,7 @@
     "node-fetch": "^3.3.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^4.11.0",
     "react-stars": "^2.2.5",
     "react-toastify": "^9.1.3"
   },

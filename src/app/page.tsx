@@ -24,6 +24,7 @@ export default async function Home() {
           }
         </div>
         <Cta />
+       
 
       </section>
     </main>
